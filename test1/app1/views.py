@@ -1,4 +1,4 @@
-from django.shortcuts import render
+# from django.shortcuts import render
 from django.http import HttpRequest, JsonResponse
 
 
@@ -11,4 +11,5 @@ def test_git(request: HttpRequest):
     print("世界那么大， 我想去看看")
     print("master test")
     print("hot-fix")
+    print("test2")
     return JsonResponse({"code": 200})
