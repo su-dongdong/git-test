@@ -10,4 +10,5 @@ def test_git(request: HttpRequest):
     print('test')
     print("世界那么大， 我想去看看")
     print("master test")
+    print("hot-fix")
     return JsonResponse({"code": 200})
