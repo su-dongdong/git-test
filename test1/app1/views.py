@@ -13,4 +13,5 @@ def test_git(request: HttpRequest):
     print("hot-fix")
     print("test2")
     print("pull test")
+    print("gitee test")
     return JsonResponse({"code": 200})
