@@ -12,4 +12,5 @@ def test_git(request: HttpRequest):
     print("master test")
     print("hot-fix")
     print("test2")
+    print("pull test")
     return JsonResponse({"code": 200})
